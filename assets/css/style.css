@@ -1373,7 +1373,7 @@ Main Banner Area CSS
 }
 .main-banner-image img:nth-child(4) {
   right: 50px;
-  bottom: -165px;
+  top: -200px;
   z-index: 4;
 }
 .main-banner-image img:nth-child(5) {
