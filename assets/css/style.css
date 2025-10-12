@@ -76,6 +76,7 @@ Default CSS
 =================================================*/
 /*@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");*/
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Macondo:wght@600;700;800&display=swap");
+
 body {
   padding: 0;
   margin: 0;
@@ -148,7 +149,7 @@ img {
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
   color: #2E2F46;
   /*font-family: "Inter", sans-serif;*/
-  font-family: "Macondo", sans-serif;
+  font-family: "Macondo", cursive;
   /*font-weight: 600;*/
   font-weight: 400;
 }
