@@ -74,7 +74,8 @@ This files table contents are outlined below>>>>>
 /*================================================
 Default CSS
 =================================================*/
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/*@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Macondo:wght@600;700;800&display=swap");
 body {
   padding: 0;
   margin: 0;
@@ -146,8 +147,10 @@ img {
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
   color: #2E2F46;
-  font-family: "Inter", sans-serif;
-  font-weight: 600;
+  /*font-family: "Inter", sans-serif;*/
+  font-family: "Macondo", sans-serif;
+  /*font-weight: 600;*/
+  font-weight: 400;
 }
 .h1:last-child, .h2:last-child, .h3:last-child, .h4:last-child, .h5:last-child, .h6:last-child, h1:last-child, h2:last-child, h3:last-child, h4:last-child, h5:last-child, h6:last-child {
   margin-bottom: 0;
@@ -791,6 +794,7 @@ Navbar Area CSS
   position: absolute;
   right: 60px;
   top: -28px;
+  font-size: 25px;
 }
 .others-option-for-responsive .dot-menu .inner {
   display: flex;
@@ -1291,7 +1295,7 @@ Main Banner Area CSS
   position: relative;
   z-index: 1;
   overflow: hidden;
-  background: linear-gradient(90deg, rgba(255, 65, 76, 0.96) 0%, #FF8760 100%);
+  background: linear-gradient(90deg, #990000 0%, #930000 100%);
 }
 .main-banner-with-large-shape-area.without-banner-animation {
   padding-top: 265px;
@@ -1346,47 +1350,36 @@ Main Banner Area CSS
 .main-banner-image img {
   position: absolute;
 }
+/*
 .main-banner-image img:nth-child(1) {
-  left: 25px;
-  top: 35px;
-  z-index: 9;
+  background-color: #0064FB;
+  left: 95px;
+  top: -200px;
+  z-index: 1;
+}
+*/
+
+.main-banner-image img:nth-child(1) {
+  top: -200px;
+  z-index: 1;
 }
 .main-banner-image img:nth-child(2) {
-  left: 140px;
-  top: 15px;
-  z-index: 1;
+  top: -200px;
+  z-index: 2;
 }
 .main-banner-image img:nth-child(3) {
-  left: 180px;
-  top: 120px;
-  z-index: 9;
+  top: -200px;
+  z-index: 30;
 }
 .main-banner-image img:nth-child(4) {
-  left: 310px;
-  top: 35px;
-  z-index: 1;
+  right: 50px;
+  bottom: -165px;
+  z-index: 4;
 }
 .main-banner-image img:nth-child(5) {
-  bottom: -120px;
-  right: 245px;
-  z-index: 1;
-}
-.main-banner-image img:nth-child(6) {
-  right: 160px;
-  top: 240px;
-  z-index: 1;
-}
-.main-banner-image img:nth-child(7) {
-  top: -132px;
-  right: 125px;
-}
-.main-banner-image img:nth-child(8) {
-  right: 80px;
-  top: 20px;
-}
-.main-banner-image img:nth-child(9) {
-  top: 130px;
-  right: 0;
+  right: 50px;
+  top: -200px;
+  z-index: 5;
 }
 .main-banner-image img:last-child {
   display: none;
@@ -5527,6 +5520,14 @@ Blog Details CSS
   margin-top: 30px;
   position: relative;
 }
+
+.about-author {
+  padding: 50px 50px 50px 180px;
+  border-radius: 5px;
+  margin-top: 30px;
+  position: relative;
+}
+
 .blog-details-desc .article-author img {
   position: absolute;
   left: 55px;
@@ -5534,10 +5535,25 @@ Blog Details CSS
   transform: translateY(-50%);
   border-radius: 50%;
 }
+
+.about-author img {
+  position: absolute;
+  left: 55px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+}
+
 .blog-details-desc .article-author p {
   font-size: 16px;
   margin-bottom: 20px;
 }
+
+.about-author p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
 .blog-details-desc .article-author span {
   color: #2E2F46;
   font-size: 18px;

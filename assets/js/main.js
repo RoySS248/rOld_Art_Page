@@ -363,11 +363,13 @@ jQuery(function ($) {
 		margin: 30,
 		autoplayHoverPause: true,
 		autoplay: true,
+		items: 1,
 		navText: [
 			"<i class='ri-arrow-left-line'></i>",
 			"<i class='ri-arrow-right-line'></i>"
 		],
 		responsive: {
+			/*
 			0: {
 				items: 1
 			},
@@ -380,6 +382,7 @@ jQuery(function ($) {
 			1200: {
 				items: 5
 			}
+			*/
 		}
 	});
 
@@ -408,27 +411,38 @@ jQuery(function ($) {
 			}
 		}
 	});
+	
 	$('.clients-slides-two').owlCarousel({
-		loop: true,
+		loop: false,
 		nav: false,
 		dots: true,
 		smartSpeed: 500,
 		margin: 30,
-		autoplayHoverPause: true,
-		autoplay: true,
+		autoplayHoverPause: false,
+		autoplay: false,
 		
 		responsive: {
 			0: {
-				items: 1
+				items: 1,
+				autoplayHoverPause: true,
+				autoplay: true,
+				
 			},
 			576: {
-				items: 1
+				items: 1,
+				autoplayHoverPause: true,
+				autoplay: true,
+
 			},
 			768: {
-				items: 2
+				items: 2,
+				autoplayHoverPause: false,
+				autoplay: false,
 			},
 			1200: {
-				items: 2
+				items: 2,
+				autoplayHoverPause: false,
+				autoplay: false,
 			}
 		}
 	});

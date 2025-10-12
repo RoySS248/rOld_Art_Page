@@ -864,6 +864,11 @@ Default CSS
 .theme-dark .blog-details-desc .article-author {
   background-color: #0a0a11;
 }
+
+.theme-dark .about-author {
+  background-color: #0a0a11;
+}
+
 .theme-dark .blog-details-desc .article-author span {
   color: #ffffff;
 }
