@@ -358,7 +358,7 @@ jQuery(function ($) {
 	$('.partner-slides').owlCarousel({
 		loop: true,
 		nav: true,
-		dots: false,
+		dots: true,
 		smartSpeed: 500,
 		margin: 30,
 		autoplayHoverPause: true,
@@ -426,23 +426,29 @@ jQuery(function ($) {
 				items: 1,
 				autoplayHoverPause: true,
 				autoplay: true,
+				loop: true,
 				
 			},
 			576: {
 				items: 1,
 				autoplayHoverPause: true,
 				autoplay: true,
+				loop: true,
 
 			},
 			768: {
 				items: 2,
 				autoplayHoverPause: false,
 				autoplay: false,
+				loop: false,
+
 			},
 			1200: {
 				items: 2,
 				autoplayHoverPause: false,
 				autoplay: false,
+				loop: false,
+
 			}
 		}
 	});
