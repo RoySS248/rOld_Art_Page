@@ -38,7 +38,7 @@
     margin-top: 50px;
   }
   .others-option-for-responsive .dot-menu {
-    top: -40px;
+    top: -32px;
   }
   .others-option-for-responsive .container .container {
     right: 20px;
@@ -2267,7 +2267,7 @@
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
 
   .support-area {
-    background-image: url(../../assets/images/support/support-bg-2.jpg);
+    background-image: url(../../assets/images/acerca_de/sobre_ROA/support-bg-2.jpg);
     padding-top: 10px;
     padding-bottom: 70px;
   }

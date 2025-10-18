@@ -2389,7 +2389,7 @@ Services Area CSS
 Support Area CSS
 =================================================*/
 .support-area {
-  background-image: url(../../assets/images/support/support-bg-1.jpg);
+  background-image: url(../../assets/images/acerca_de/sobre_ROA/support-bg-1.jpg);
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -3078,16 +3078,16 @@ Plans Area CSS
 }
 .single-plans-table .popular-tag span {
   font-size: 15px;
-  color: #36CC72;
+  color: #990000;
   font-weight: 500;
 }
 .single-plans-table:hover {
   transform: translateY(-10px);
-  border: 1px solid #36CC72;
+  border: 1px solid #990000;
   box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.1);
 }
 .single-plans-table:hover .plans-btn .default-btn {
-  background-color: #36CC72;
+  background-color: #990000;
 }
 
 .view-all-plans-btn {
@@ -8935,3 +8935,9 @@ Buy Now Btn
     transform: scale3d(1, 1, 1);
   }
 }/*# sourceMappingURL=style.css.map */
+
+.main-responsive-nav .logo a {
+  position: relative;
+  z-index: 9999 !important;
+  pointer-events: auto !important;
+}
