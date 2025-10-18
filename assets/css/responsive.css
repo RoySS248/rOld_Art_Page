@@ -1346,8 +1346,6 @@
   .support-area {
     padding-top: 70px;
     padding-bottom: 70px;
-    background-position: center 50%;
-    background-attachment: scroll;
   }
   .support-content {
     padding: 35px 25px;
@@ -2267,6 +2265,14 @@
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
+
+  .support-area {
+    padding-top: 10px;
+    padding-bottom: 70px;
+    background-position:bottom center;
+    background-attachment: scroll;
+  }
+
   .main-banner-area {
     padding-top: 260px;
     padding-bottom: 260px;
