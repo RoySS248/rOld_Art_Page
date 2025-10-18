@@ -6384,7 +6384,7 @@ Coming Soon Area CSS
 =================================================*/
 .coming-soon-area {
   height: 100vh;
-  background-image: url(../../assets/images/coming-soon-bg.jpg);
+  background-color: #990000;
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;

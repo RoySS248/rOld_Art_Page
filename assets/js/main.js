@@ -585,7 +585,7 @@ jQuery(function ($) {
 
 	// Count Time 
 	function makeTimer() {
-		var endTime = new Date("December 30, 2028 17:00:00 PDT");			
+		var endTime = new Date("November 15, 2025 17:00:00 PDT");			
 		var endTime = (Date.parse(endTime)) / 1000;
 		var now = new Date();
 		var now = (Date.parse(now) / 1000);
