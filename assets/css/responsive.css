@@ -2267,10 +2267,9 @@
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
 
   .support-area {
+    background-image: url(../../assets/images/support/support-bg-2.jpg);
     padding-top: 10px;
     padding-bottom: 70px;
-    background-position:bottom center;
-    background-attachment: scroll;
   }
 
   .main-banner-area {
