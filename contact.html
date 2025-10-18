@@ -326,53 +326,47 @@
 
         
         <!-- Start Contact Area -->
-         <!--
         <div class="contact-area ptb-100">
             <div class="container">
                 <div class="contact-form">
                     <h3>¡Contáctanos!</h3>
 
-                    <form id="contactForm">
+                    <form id="contactForm" action="https://formsubmit.co/166be66a2d00107c424b662070098027" method="POST">
                         <div class="row">
                             <div class="col-lg-12 col-md-12">
                                 <div class="form-group">
-                                    <input type="text" name="name" id="name" class="form-control" required data-error="Por favor, introduzca su nombre" placeholder="Nombre*">
+                                    <input type="text" name="name" id="name" class="form-control" required data-error="Por favor, introduzca su nombre" placeholder="Nombre*" required>
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
 
                             <div class="col-lg-6 col-md-6">
                                 <div class="form-group">
-                                    <input type="text" name="phone_number" id="phone_number" class="form-control" required data-error="Por favor ingrese su número" placeholder="Teléfono*">
+                                    <input type="tel" name="phone" id="phone_number" class="form-control" required data-error="Por favor ingrese su número" placeholder="Teléfono*" required>
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
 
                             <div class="col-lg-6 col-md-6">
                                 <div class="form-group">
-                                    <input type="email" name="email" id="email" class="form-control" required data-error="Por favor ingrese su correo electrónico" placeholder="Email*">
-                                    <div class="help-block with-errors"></div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-6 col-md-6">
-                                <div class="form-group">
-                                    <input type="text" name="company" id="company" data-error="Por favor, introduzca el nombre de su empresa" class="form-control" placeholder="Empresa">
-                                    <div class="help-block with-errors"></div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-6 col-md-6">
-                                <div class="form-group">
-                                    <input type="text" name="business_line" id="business_line" class="form-control" data-error="Por favor, introduzca el giro de su empresa" placeholder="Giro de la empresa">
+                                    <input type="email" name="email" id="email" class="form-control" required data-error="Por favor ingrese su correo electrónico" placeholder="Email*" required>
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
 
                             <div class="col-lg-12 col-md-12">
                                 <div class="form-group">
-                                    <textarea name="message" class="form-control" id="message" cols="30" rows="5" required data-error="Escribe tu mensaje" placeholder="Mensaje*"></textarea>
+                                    <textarea name="message" class="form-control" id="message" cols="30" rows="5" required data-error="Escribe tu mensaje" placeholder="Mensaje*" required></textarea>
                                     <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 col-md-6">
+                                <div class="form-group">
+                                    <input type="hidden" name="_subject" value="Nuevo contacto desde el sitio web">
+                                    <input type="hidden" name="_autoresponse" value="¡Gracias por tu mensaje! Te responderemos pronto.">
+                                    <input type="hidden" name="_next" value="https://royss248.github.io/rOld_Art_Page/">
+                                    <input type="hidden" name="_captcha" value="false">
                                 </div>
                             </div>
 
@@ -386,14 +380,14 @@
                 </div>
             </div>
         </div>
-        --->
         <!-- End Contact Area -->
 
-        <!--
+<!--
         <form action="https://formsubmit.co/166be66a2d00107c424b662070098027" method="POST">
 
             <input type="text" name="name" placeholder="Tu nombre" required>
             <input type="email" name="email" placeholder="Tu correo" required>
+            <input type="tel" name="phone" placeholder="Teléfono">
             <textarea name="message" placeholder="Mensaje" required></textarea>
 
 
@@ -406,7 +400,6 @@
         </form>
 -->
 
-        
 
         <!-- Start Contact Info Area -->
         <div class="contact-info-area pb-100">

@@ -9,8 +9,8 @@
             submitMSG(false, "¿Has rellenado correctamente el formulario?");
         } 
         else {
-            event.preventDefault();
-            submitForm();
+            //event.preventDefault();
+            //submitForm();
         }
     });
 

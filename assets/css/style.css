@@ -4404,7 +4404,7 @@ Team Area CSS
 Page Banner Area CSS
 =================================================*/
 .page-banner-area {
-  background-color: #E3E3E3;
+  background-color: #990000;
   padding-top: 100px;
   padding-bottom: 110px;
   position: relative;
@@ -4422,6 +4422,7 @@ Page Banner Area CSS
   line-height: 1.5;
 }
 .page-banner-content h2 {
+  color: #F8F8F8;
   font-size: 40px;
   margin-bottom: 20px;
 }
@@ -4455,7 +4456,7 @@ Page Banner Area CSS
 }
 .page-banner-content ul li a {
   display: block;
-  color: #2E2F46;
+  color: #F8F8F8;
 }
 
 .page-banner-shape-1 {
