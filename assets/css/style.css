@@ -1727,7 +1727,12 @@ Features Area CSS
   top: 0;
   width: 100%;
   height: 0;
-  background: linear-gradient(90deg, rgba(255, 65, 76, 0.96) 0%, #FF8760 100%);
+  background: linear-gradient(720deg, 
+    #1A1A1A 0%,
+    #1A1A1A 5%,
+    #990000 40%,
+    #990000 100%
+  );
   z-index: -1;
   transition: 0.6s;
   border-radius: 5px;
@@ -2856,7 +2861,12 @@ Plans Area CSS
   border-radius: 5px;
 }
 .plans-area.bg-gradient-color::before {
-  background: linear-gradient(90deg, rgba(255, 65, 76, 0.96) 0%, #FF8760 100%);
+  background: linear-gradient(30deg, 
+    #1A1A1A 0%,
+    #1A1A1A 5%,
+    #990000 40%,
+    #990000 100%
+  );
 }
 .plans-area.bg-gradient-color .single-plans-table.active-box .plans-btn .default-btn {
   background-color: #990000;
@@ -5557,7 +5567,7 @@ Blog Details CSS
   background-color: #E3E3E3;
   padding: 50px 50px 50px 180px;
   border-radius: 5px;
-  margin-top: 30px;
+  margin-top: 5px;
   position: relative;
 }
 

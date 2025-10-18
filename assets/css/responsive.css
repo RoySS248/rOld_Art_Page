@@ -286,8 +286,9 @@
     display: none;
   }
   .support-area {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    background-image: none;
+    background-color: #990000;
+    background-attachment: scroll;
   }
   .support-content {
     padding: 35px 25px;
@@ -1345,6 +1346,8 @@
   .support-area {
     padding-top: 70px;
     padding-bottom: 70px;
+    background-position: center 50%;
+    background-attachment: scroll;
   }
   .support-content {
     padding: 35px 25px;
