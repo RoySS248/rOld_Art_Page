@@ -2181,6 +2181,10 @@ Services Area CSS
   background-color: #f9eaed;
   color: #FF2446;
 }
+.single-services-item .icon.bg-sketchfab i {
+  background-color: #ebf0fa;
+  color: #1CAAD9;
+}
 .single-services-item .icon.bg-behance i {
   background-color: #ebf0fa;
   color: #0057ff;
@@ -2245,6 +2249,9 @@ Services Area CSS
 }
 .single-services-item:hover .icon.bg-itchio i {
   background-color: #FF2446;
+}
+.single-services-item:hover .icon.bg-sketchfab i {
+  background-color: #1CAAD9;
 }
 .single-services-item:hover .icon.bg-behance i {
   background-color: #0057ff;
@@ -8738,9 +8745,9 @@ Footer Area CSS
 }
 .single-footer-widget .widget-social li i {
   display: inline-block;
-  height: 40px;
-  width: 40px;
-  line-height: 40px;
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
   background-color: #F8F8F8;
   color: #2E2F46;
   box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.1);
