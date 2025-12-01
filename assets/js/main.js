@@ -11,6 +11,12 @@ jQuery(function ($) {
 		}
 	});
 
+	document.addEventListener('contextmenu', function(e) {
+			if (e.target.closest('.img-no-download')) {
+					e.preventDefault();
+			}
+	});
+
 	// Mean Menu
 	jQuery('.mean-menu').meanmenu({
 		meanScreenWidth: "1199"

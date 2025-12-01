@@ -8943,22 +8943,44 @@ Buy Now Btn
   }
 }/*# sourceMappingURL=style.css.map */
 
+/*-----------------------------------------------------------------------*/
+
 .main-responsive-nav .logo a {
   position: relative;
   z-index: 9999 !important;
   pointer-events: auto !important;
 }
 
+/*-----------------------------------------------------------------------*/
 
-/* PASO A: Contenedor que establece la proporción 16:9 */
+/* --- ESTILOS CORREGIDOS PARA EL SCROLL VERTICAL --- */
+.case-details-image {
+    max-height: 80vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: block;
+}
+
+.case-details-image img {
+    /* Las imágenes ocupan el 100% del ancho del contenedor de scroll */
+    width: 100%;
+    height: auto;
+    
+    /* Espacio entre cada imagen apilada */
+    /*
+    margin-bottom: 20px;
+    */
+}
+
+
+/*-----------------------------------------------------------------------*/
+
 .video-responsive {
     position: relative;
-    padding-bottom:20%; /* Esto crea la altura para la proporción 16:9 */
+    padding-bottom:20%;
     height: 0;
     overflow: hidden;
 }
-
-/* PASO B: El iframe ocupa el 100% del espacio del contenedor */
 .video-responsive iframe {
     position: absolute;
     top: 0;
@@ -8966,8 +8988,6 @@ Buy Now Btn
     width: 100%;
     height: 100%;
 }
-
-/* Además, mantén tus reglas para limitar el ancho general del modal: */
 .mfp-content .modal-pequeno {
     max-width: 80vh !important; 
     width: 90%; 
