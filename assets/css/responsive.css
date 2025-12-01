@@ -1881,6 +1881,12 @@
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .support-area {
+    background-image: url(../../assets/images/acerca_de/sobre_ROA/support-bg-2.jpg);
+    padding-top: 10px;
+    padding-bottom: 70px;
+  }
+  
   .top-header-area {
     display: block;
   }
