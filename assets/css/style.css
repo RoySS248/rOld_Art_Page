@@ -3658,7 +3658,7 @@ Video Area CSS
   animation: ripple 1s linear infinite;
 }
 .video-view-content .video-btn:hover {
-  background-color: #990000;
+  background-color: #2E2F46;
 }
 .video-view-content .video-btn:hover i {
   color: #ffffff;
