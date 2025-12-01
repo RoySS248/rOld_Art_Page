@@ -580,6 +580,15 @@ jQuery(function ($) {
 		fixedContentPos: false
 	});
 
+	$('.popup-trigger-inline').magnificPopup({
+    // Utilizamos 'inline' para cargar el contenido del DIV oculto (#video-modal-content)
+    type: 'inline', 
+    mainClass: 'mfp-fade',
+    removalDelay: 160,
+    preloader: false,
+    fixedContentPos: true
+});
+
 	// Nice Select JS
 	$('select').niceSelect();
 
